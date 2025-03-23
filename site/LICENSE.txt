@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spa CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            background-color: #a2d5c6;
+            padding: 20px;
+            color: white;
+            font-size: 1.5em;
+        }
+
+        .profile {
+            margin: 20px 0;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #a2d5c6;
+        }
+
+        .about, .services, .contact {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #5c8374;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background: #e8f6f3;
+            margin: 5px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #5c8374;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Serenity Spa</h1>
+        <p>Your Relaxation, Our Priority</p>
+    </header>
+    
+    <section class="profile">
+        <img src="profile.jpg" alt="Spa Specialist" class="profile-pic">
+        <h2>Jane Doe</h2>
+        <p>Certified Spa & Wellness Expert</p>
+    </section>
+    
+    <section class="about">
+        <h2>About Me</h2>
+        <p>With over 10 years of experience in holistic wellness, I specialize in aromatherapy, massage therapy, and skincare treatments to bring you ultimate relaxation.</p>
+    </section>
+    
+    <section class="services">
+        <h2>Services</h2>
+        <ul>
+            <li>Massage Therapy</li>
+            <li>Aromatherapy</li>
+            <li>Facial Treatments</li>
+            <li>Body Scrubs</li>
+        </ul>
+    </section>
+    
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: jane.doe@example.com</p>
+        <p>Phone: +123 456 7890</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Serenity Spa. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
